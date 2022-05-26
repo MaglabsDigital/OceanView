@@ -3,7 +3,7 @@
 <svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
 	 width="1600px" height="1281px" viewBox="0 0 566.9 453.5" preserveAspectRatio="xMinYMin meet" class="svg-content" enable-background="new 0 0 566.9 453.5" xml:space="preserve">
 <g id="Bottom_Layer">
-	<g>
+	<g class="regionmap">
 		<g>
 			<path fill="#EDEDED" d="M373.6,96.7c0.2-1,0.5-2,0.6-3c1.7-9.8,6.6-6.6,8.9-4.4c0.7,0.7,1.8,0.7,2.5,0.1c5.5-4.9,8.9-3,8.9-3
 				c8.2,1.6,12.8-10.5,14.2-14.9c0.2-0.6-0.4-1.2-1-1c-5.7,1.5-4.4-5.7-3.5-9.1c0.3-1,0.9-1.9,1.8-2.4l5.7-3.5c0.4-0.2,0.4-0.7,0-1
@@ -3867,7 +3867,7 @@
 
 <script>
 $("#Layer_1 #Top_Layer g:first-child g:nth-child(1) path").on("mouseover", function () {
-    $("#Layer_1 #Bottom_Layer g:first-child g:nth-child(1) path").css("fill", "green");
+    $("#Layer_1 #Bottom_Layer .regionmap g:nth-child(1) path").css("fill", "green");
 	$(this).hide();
 	$(".alcudia").hide();
     console.log("region 1");
