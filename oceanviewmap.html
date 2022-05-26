@@ -2742,7 +2742,7 @@
 				v-1.7C94.3,319.2,94.2,318.9,94,318.7z M93.6,320.2c0,0.4-0.3,0.6-0.8,0.6c-0.4,0-0.6-0.1-0.6-0.4s0.3-0.5,0.7-0.5
 				c0.3,0,0.5,0,0.7,0.1C93.6,320,93.6,320.2,93.6,320.2z"/>
 		</g>
-		<g>
+		<g class="alcudia">
 			<g>
 				<g>
 					<g>
@@ -3869,6 +3869,7 @@
 $("#Layer_1 #Bottom_Layer g:first-child g:nth-child(1) path").on("mouseover", function () {
     $("#Layer_1 #Top_Layer g:first-child g:nth-child(1) path").css("fill", "green");
 	$(this).hide();
+	$(".alcudia").hide();
     console.log("region 1");
 });
 
