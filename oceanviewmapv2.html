@@ -321,7 +321,7 @@
 				</g>
 			</g>
 		</g>
-		<g>
+		<g class="portocristo">
 			<g>
 				<g>
 					<g>
@@ -391,7 +391,7 @@
 				</g>
 			</g>
 		</g>
-		<g>
+		<g class="calaratjada">
 			<g>
 				<g>
 					<g>
@@ -698,7 +698,7 @@
 				</g>
 			</g>
 		</g>
-		<g>
+		<g class="arta">
 			<g>
 				<g>
 					<g>
@@ -1249,7 +1249,7 @@
 				<path fill="#706F6F" d="M451.3,376.6h0.7v0.7c0.2-0.4,0.5-0.7,1-0.7v0.7l0,0c-0.6,0-1,0.4-1,1.1v1.1h-0.7V376.6z"/>
 			</g>
 		</g>
-		<g>
+		<g class="calamillor">
 			<g>
 				<g>
 					<g>
@@ -1291,7 +1291,7 @@
 				<path fill="#706F6F" d="M519.3,226.3h0.7v0.7c0.2-0.4,0.5-0.7,1-0.7v0.7l0,0c-0.6,0-1,0.4-1,1.1v1.1h-0.7V226.3z"/>
 			</g>
 		</g>
-		<g>
+		<g class="manacor">
 			<g>
 				<g>
 					<g>
@@ -1700,7 +1700,7 @@
 					c-0.4,0-0.7,0.2-0.7,0.5l0,0c0,0.3,0.2,0.4,0.6,0.4C280.1,264.9,280.5,264.6,280.5,264.2z"/>
 			</g>
 		</g>
-		<g>
+		<g class="betlem">
 			<g>
 				<g>
 					<g>
@@ -1738,7 +1738,7 @@
 					v1.6h-0.7L475.1,141.6L475.1,141.6z"/>
 			</g>
 		</g>
-		<g>
+		<g class="coloniadesantpere">
 			<g>
 				<g>
 					<g>
@@ -1993,8 +1993,30 @@
 		$(".palma path").css('fill', 'black');
 		$(".canpastilla path").css('fill', 'black');
 	});
+	
 	$("#Layer_1 g g:first-child g:nth-child(3) path").on("mouseleave", function () {
 		$(".palma path").css('fill', '#706F6F');
 		$(".canpastilla path").css('fill', '#706F6F');
 	});
+	
+	$("#Layer_1 g g:first-child g:nth-child(4) path").on("mouseover", function () {
+		$(".betlem path").css('fill', 'black');
+		$(".calaratjada path").css('fill', 'black');
+		$(".coloniadesantpere path").css('fill', 'black');
+		$(".arta path").css('fill', 'black');
+		$(".calamillor path").css('fill', 'black');
+		$(".manacor path").css('fill', 'black');
+		$(".portocristo path").css('fill', 'black');
+	});
+	
+	$("#Layer_1 g g:first-child g:nth-child(4) path").on("mouseleave", function () {
+		$(".betlem path").css('fill', '#706F6F');
+		$(".calaratjada path").css('fill', '#706F6F');
+		$(".coloniadesantpere path").css('fill', '#706F6F');
+		$(".arta path").css('fill', '#706F6F');
+		$(".calamillor path").css('fill', '#706F6F');
+		$(".manacor path").css('fill', '#706F6F');
+		$(".portocristo path").css('fill', '#706F6F');
+	});
+	
 </script>
