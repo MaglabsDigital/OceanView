@@ -515,7 +515,7 @@ body {
     padding-left:0;
     padding-right:0;
     margin-left:-4vw;
-    width: calc(100% + 8vw)
+    width: calc(100% + 8vw);
   }
   #root>div>div:nth-child(7),
   #root>div>div:nth-child(14),
