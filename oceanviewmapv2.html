@@ -533,7 +533,7 @@
 				c0-0.5,0.3-0.8,0.7-0.8s0.7,0.4,0.7,0.8H186.9z"/>
 			<path fill="#706F6F" d="M190.3,147.2v-0.7h-0.7v2.9h0.7v-1.1c0-0.7,0.4-1.1,1-1.1v-0.7C190.8,146.5,190.5,146.8,190.3,147.2z"/>
 		</g>
-		<g>
+		<g class="palma">
 			<g>
 				<g>
 					<g>
@@ -1331,7 +1331,7 @@
 				<path fill="#706F6F" d="M441.9,226.3h0.7v0.7c0.2-0.4,0.5-0.7,1-0.7v0.7l0,0c-0.6,0-1,0.4-1,1.1v1.1h-0.7V226.3z"/>
 			</g>
 		</g>
-		<g>
+		<g class="canpastilla">
 			<g>
 				<g>
 					<g>
@@ -1969,5 +1969,14 @@
 		$(".binissalem path").css('fill', '#706F6F');
 		$(".alaro path").css('fill', '#706F6F');
 		$(".santamariadelcami path").css('fill', '#706F6F');
+	});
+	
+	$("#Layer_1 g g:first-child g:nth-child(2) path").on("mouseover", function () {
+		$(".palma path").css('fill', 'black');
+		$(".canpastilla path").css('fill', 'black');
+	});
+	$("#Layer_1 g g:first-child g:nth-child(2) path").on("mouseleave", function () {
+		$(".palma path").css('fill', '#706F6F');
+		$(".canpastilla path").css('fill', '#706F6F');
 	});
 </script>
