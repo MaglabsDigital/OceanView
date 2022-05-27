@@ -135,7 +135,7 @@
 			<path fill="#EDEDED" d="M356.4,68.4L356.4,68.4c0,0,0.1,0.2,0.3,0.4l0.1-0.1L356.4,68.4z"/>
 		</g>
 	</g>
-	<g>
+	<g class="santanyi">
 		<g>
 			<g>
 				<g>
@@ -195,7 +195,7 @@
 				</g>
 			</g>
 		</g>
-		<g>
+		<g class="llucmajor">
 			<g>
 				<g>
 					<g>
@@ -255,7 +255,7 @@
 				</g>
 			</g>
 		</g>
-		<g>
+		<g class="portocolom">
 			<g>
 				<g>
 					<g>
@@ -600,7 +600,7 @@
 			<polygon fill="#706F6F" points="62.6,275.3 63.6,273.9 62.9,273.9 62.2,274.9 61.7,273.9 61,273.9 62,275.3 60.9,276.8 
 				61.6,276.8 62.3,275.8 63,276.8 63.7,276.8 			"/>
 		</g>
-		<g>
+		<g class="campos">
 			<g>
 				<g>
 					<g>
@@ -1207,7 +1207,7 @@
 					c-0.2,0.3-0.5,0.5-0.9,0.5C327.5,215.8,327.1,215.3,327.1,214.6z"/>
 			</g>
 		</g>
-		<g>
+		<g class="caladeor">
 			<g>
 				<g>
 					<g>
@@ -1449,7 +1449,7 @@
 				<path fill="#706F6F" d="M231.1,223.1h0.7v2.9h-0.7V223.1z M231.8,221.8l0.6,0.3l-0.7,0.6h-0.5L231.8,221.8z"/>
 			</g>
 		</g>
-		<g>
+		<g class="calafiguera">
 			<g>
 				<g>
 					<g>
@@ -1499,7 +1499,7 @@
 					c-0.4,0-0.7,0.2-0.7,0.5l0,0c0,0.3,0.2,0.4,0.6,0.4C426.1,408.1,426.5,407.8,426.5,407.4z"/>
 			</g>
 		</g>
-		<g>
+		<g class="sarapita">
 			<g>
 				<g>
 					<g>
@@ -1546,7 +1546,7 @@
 					c-0.4,0-0.7,0.2-0.7,0.5l0,0c0,0.3,0.2,0.4,0.6,0.4C312.4,388.7,312.7,388.5,312.7,388.1z"/>
 			</g>
 		</g>
-		<g>
+		<g class="calapi">
 			<g>
 				<g>
 					<g>
@@ -1583,7 +1583,7 @@
 				<path fill="#706F6F" d="M265.4,386.1h0.7v0.6h-0.7V386.1z M265.4,387.2h0.7v2.9h-0.7V387.2z"/>
 			</g>
 		</g>
-		<g>
+		<g class="sarenal">
 			<g>
 				<g>
 					<g>
@@ -1914,7 +1914,7 @@
 					c-0.4,0-0.7,0.2-0.7,0.5l0,0c0,0.3,0.2,0.4,0.6,0.4S380.7,179.6,380.7,179.3z"/>
 			</g>
 		</g>
-		<g>
+		<g class="felanitx">
 			<g>
 				<g>
 					<g>
@@ -2017,6 +2017,52 @@
 		$(".calamillor path").css('fill', '#706F6F');
 		$(".manacor path").css('fill', '#706F6F');
 		$(".portocristo path").css('fill', '#706F6F');
+	});
+	
+	$("#Layer_1 g g:first-child g:nth-child(5) path").on("mouseover", function () {
+		$(".betlem path").css('fill', 'black');
+		$(".calaratjada path").css('fill', 'black');
+		$(".coloniadesantpere path").css('fill', 'black');
+		$(".arta path").css('fill', 'black');
+		$(".calamillor path").css('fill', 'black');
+		$(".manacor path").css('fill', 'black');
+		$(".portocristo path").css('fill', 'black');
+	});
+	
+	$("#Layer_1 g g:first-child g:nth-child(5) path").on("mouseleave", function () {
+		$(".betlem path").css('fill', '#706F6F');
+		$(".calaratjada path").css('fill', '#706F6F');
+		$(".coloniadesantpere path").css('fill', '#706F6F');
+		$(".arta path").css('fill', '#706F6F');
+		$(".calamillor path").css('fill', '#706F6F');
+		$(".manacor path").css('fill', '#706F6F');
+		$(".portocristo path").css('fill', '#706F6F');
+	});
+		
+	$("#Layer_1 g g:first-child g:nth-child(6) path").on("mouseover", function () {
+		$(".portocolom path").css('fill', 'black');
+		$(".felanitx path").css('fill', 'black');
+		$(".caladeor path").css('fill', 'black');
+		$(".calafiguera path").css('fill', 'black');
+		$(".santanyi path").css('fill', 'black');
+		$(".campos path").css('fill', 'black');
+		$(".llucmajor path").css('fill', 'black');
+		$(".sarenal path").css('fill', 'black');
+		$(".sarapita path").css('fill', 'black');
+		$(".calapi path").css('fill', 'black');
+	});
+	
+	$("#Layer_1 g g:first-child g:nth-child(6) path").on("mouseleave", function () {
+		$(".portocolom path").css('fill', '#706F6F');
+		$(".felanitx path").css('fill', '#706F6F');
+		$(".caladeor path").css('fill', '#706F6F');
+		$(".calafiguera path").css('fill', '#706F6F');
+		$(".santanyi path").css('fill', '#706F6F');
+		$(".campos path").css('fill', '#706F6F');
+		$(".llucmajor path").css('fill', '#706F6F');
+		$(".sarenal path").css('fill', '#706F6F');
+		$(".sarapita path").css('fill', '#706F6F');
+		$(".calapi path").css('fill', '#706F6F');
 	});
 	
 </script>
