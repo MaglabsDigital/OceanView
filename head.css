@@ -442,6 +442,7 @@ body {
     color:#fff !important;
     z-index:3;
     width:62%;
+    text-shadow: 0 0 20px #666;
   }
   #root>div>div:nth-child(7) #box>div>div:nth-child(2) .chakra-text,
   #root>div>div:nth-child(14) #box>div>div:nth-child(2) .chakra-text,
