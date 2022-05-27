@@ -421,10 +421,13 @@ body {
 }
 @media screen and (min-width: 768px) {
   .filter-search {
-    width: 15%;
+    width: 10%;
   }
 }
 @media screen and (min-width: 992px) {  
+    .filter-search {
+      width: 15%;
+  }
   #root>div>div:nth-child(7) #box>div>div:nth-child(2),
   #root>div>div:nth-child(14) #box>div>div:nth-child(2),
   #root>div>div:nth-child(21) #box>div>div:nth-child(2),
