@@ -654,7 +654,7 @@
 				</g>
 			</g>
 		</g>
-		<g>
+		<g class="petra">
 			<g>
 				<g>
 					<g>
@@ -1124,7 +1124,7 @@
 				v-1.7C364.5,55.8,364.4,55.5,364.2,55.3z M363.7,56.8c0,0.4-0.3,0.6-0.8,0.6c-0.4,0-0.6-0.1-0.6-0.4s0.3-0.5,0.7-0.5
 				c0.3,0,0.5,0,0.7,0.1L363.7,56.8L363.7,56.8z"/>
 		</g>
-		<g>
+		<g class="canpicafort">
 			<g>
 				<g>
 					<g>
@@ -1173,7 +1173,7 @@
 					c0.1,0,0.3,0,0.4-0.1v0.5c-0.2,0.1-0.3,0.1-0.6,0.1C405.9,143.3,405.6,143.1,405.6,142.5z"/>
 			</g>
 		</g>
-		<g>
+		<g class="sineu">
 			<g>
 				<g>
 					<g>
@@ -1623,7 +1623,7 @@
 				<path fill="#706F6F" d="M225.3,312.6h0.7v4h-0.7V312.6z"/>
 			</g>
 		</g>
-		<g>
+		<g class="montuiri">
 			<g>
 				<g>
 					<g>
@@ -1659,7 +1659,7 @@
 				<path fill="#706F6F" d="M319.5,268h0.7v0.6h-0.7V268z M319.6,269.1h0.7v2.9h-0.7V269.1z"/>
 			</g>
 		</g>
-		<g>
+		<g class="algaida">
 			<g>
 				<g>
 					<g>
@@ -1853,7 +1853,7 @@
 					v1.6h-0.7L263.1,194.1L263.1,194.1z"/>
 			</g>
 		</g>
-		<g>
+		<g class="santamargalida">
 			<g>
 				<g>
 					<g>
@@ -1969,6 +1969,24 @@
 		$(".binissalem path").css('fill', '#706F6F');
 		$(".alaro path").css('fill', '#706F6F');
 		$(".santamariadelcami path").css('fill', '#706F6F');
+	});
+
+	$("#Layer_1 g g:first-child g:nth-child(2) path").on("mouseover", function () {
+		$(".canpicafort path").css('fill', 'black');
+		$(".santamargalida path").css('fill', 'black');
+		$(".petra path").css('fill', 'black');
+		$(".sineu path").css('fill', 'black');
+		$(".montuiri path").css('fill', 'black');
+		$(".algaida path").css('fill', 'black');
+	});
+	
+	$("#Layer_1 g g:first-child g:nth-child(2) path").on("mouseleave", function () {
+		$(".canpicafort path").css('fill', '#706F6F');
+		$(".santamargalida path").css('fill', '#706F6F');
+		$(".petra path").css('fill', '#706F6F');
+		$(".sineu path").css('fill', '#706F6F');
+		$(".montuiri path").css('fill', '#706F6F');
+		$(".algaida path").css('fill', '#706F6F');
 	});
 	
 	$("#Layer_1 g g:first-child g:nth-child(3) path").on("mouseover", function () {
