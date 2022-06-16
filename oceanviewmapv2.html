@@ -1958,6 +1958,8 @@
 <script>
 	$("#Layer_1 g g:first-child g:nth-child(1) path").on("mouseover", function () {
 		$(".alcudia path").css('fill', 'black');
+		$(".alcudia ellipse").css('fill', 'black');
+		$(".alcudia ellipse").css('opacity', '0.37');
 		$(".inca path").css('fill', 'black');
 		$(".binissalem path").css('fill', 'black');
 		$(".alaro path").css('fill', 'black');
@@ -1965,6 +1967,8 @@
 	});
 	$("#Layer_1 g g:first-child g:nth-child(1) path").on("mouseleave", function () {
 		$(".alcudia path").css('fill', '#706F6F');
+		$(".alcudia ellipse").css('fill', '#B2B2B2');
+		$(".alcudia ellipse").css('opacity', 'unset');
 		$(".inca path").css('fill', '#706F6F');
 		$(".binissalem path").css('fill', '#706F6F');
 		$(".alaro path").css('fill', '#706F6F');
