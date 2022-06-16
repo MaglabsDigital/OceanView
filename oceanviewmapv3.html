@@ -379,7 +379,7 @@
 <g>
 	<g>
 		<g>
-			<ellipse fill="#B2B2B2" cx="283" cy="171.1" rx="3.1" ry="0.7"/>
+			<ellipse class="brownellipse" fill="#B2B2B2" cx="283" cy="171.1" rx="3.1" ry="0.7"/>
 		</g>
 	</g>
 </g>
@@ -604,7 +604,7 @@
 <g>
 	<g>
 		<g>
-			<ellipse fill="#B2B2B2" cx="217.2" cy="179.2" rx="3.1" ry="0.7"/>
+			<ellipse class="brownellipse" fill="#B2B2B2" cx="217.2" cy="179.2" rx="3.1" ry="0.7"/>
 		</g>
 	</g>
 </g>
@@ -663,7 +663,7 @@
 <g>
 	<g>
 		<g>
-			<ellipse fill="#B2B2B2" cx="379.7" cy="75.7" rx="3.1" ry="0.7"/>
+			<ellipse class="brownellipse" fill="#B2B2B2" cx="379.7" cy="75.7" rx="3.1" ry="0.7"/>
 		</g>
 	</g>
 </g>
@@ -1087,7 +1087,7 @@
 <g>
 	<g>
 		<g>
-			<ellipse fill="#B2B2B2" cx="220.1" cy="210.9" rx="3.1" ry="0.7"/>
+			<ellipse class="brownellipse" fill="#B2B2B2" cx="220.1" cy="210.9" rx="3.1" ry="0.7"/>
 		</g>
 	</g>
 </g>
@@ -1381,7 +1381,7 @@
 <g>
 	<g>
 		<g>
-			<ellipse fill="#B2B2B2" cx="253.2" cy="188.6" rx="3.1" ry="0.7"/>
+			<ellipse class="brownellipse" fill="#B2B2B2" cx="253.2" cy="188.6" rx="3.1" ry="0.7"/>
 		</g>
 	</g>
 </g>
@@ -1549,28 +1549,11 @@
 </svg>
 
 <script>
-	$("#Layer_1 g g:first-child g:nth-child(1) path").on("mouseover", function () {
-		$(".alcudia path").css('fill', 'black');
-		$(".alcudia ellipse").css('fill', 'black');
-		$(".alcudia ellipse").css('opacity', '0.37');
-		
-		$(".inca path").css('fill', 'black');
-		$(".inca ellipse").css('fill', 'black');
-		$(".inca ellipse").css('opacity', '0.37');
-		
-		$(".binissalem path").css('fill', 'black');
-		$(".binissalem ellipse").css('fill', 'black');
-		$(".binissalem ellipse").css('opacity', '0.37');
-		
-		$(".alaro path").css('fill', 'black');
-		$(".alaro ellipse").css('fill', 'black');
-		$(".alaro ellipse").css('opacity', '0.37');
-		
-		$(".santamariadelcami path").css('fill', 'black');
-		$(".santamariadelcami ellipse").css('fill', 'black');
-		$(".santamariadelcami ellipse").css('opacity', '0.37');
+	$("#Layer_1 g:first-child g:nth-child(1) path").on("mouseover", function () {		
+		$(".brownellipse").css('fill', 'black');
+		$(".brownellipse").css('opacity', '0.37');
 	});
-	$("#Layer_1 g g:first-child g:nth-child(1) path").on("mouseleave", function () {
+	$("#Layer_1 g:first-child g:nth-child(1) path").on("mouseleave", function () {
 		$(".alcudia path").css('fill', '#706F6F');
 		$(".alcudia ellipse").css('fill', '#B2B2B2');
 		$(".alcudia ellipse").css('opacity', 'unset');
@@ -1592,7 +1575,7 @@
 		$(".santamariadelcami ellipse").css('opacity', 'unset');
 	});
 
-	$("#Layer_1 g g:first-child g:nth-child(4) path").on("mouseover", function () {
+	$("#Layer_1 g:first-child g:nth-child(4) path").on("mouseover", function () {
 		$(".canpicafort path").css('fill', 'black');
 		$(".canpicafort ellipse").css('fill', 'black');
 		$(".canpicafort ellipse").css('opacity', '0.37');
@@ -1619,7 +1602,7 @@
 		
 	});
 	
-	$("#Layer_1 g g:first-child g:nth-child(4) path").on("mouseleave", function () {
+	$("#Layer_1 g:first-child g:nth-child(4) path").on("mouseleave", function () {
 		$(".canpicafort path").css('fill', '#706F6F');
 		$(".canpicafort ellipse").css('fill', '#B2B2B2');
 		$(".canpicafort ellipse").css('opacity', 'unset');
@@ -1645,7 +1628,7 @@
 		$(".algaida ellipse").css('opacity', 'unset');		
 	});
 	
-	$("#Layer_1 g g:first-child g:nth-child(6) path").on("mouseover", function () {
+	$("#Layer_1 g:first-child g:nth-child(6) path").on("mouseover", function () {
 		$(".palma path").css('fill', 'black');
 		$(".palma ellipse").css('fill', 'black');
 		$(".palma ellipse").css('opacity', '0.37');
@@ -1656,7 +1639,7 @@
 		
 	});
 	
-	$("#Layer_1 g g:first-child g:nth-child(6) path").on("mouseleave", function () {
+	$("#Layer_1 g:first-child g:nth-child(6) path").on("mouseleave", function () {
 		$(".palma path").css('fill', '#706F6F');
 		$(".palma ellipse").css('fill', '#B2B2B2');
 		$(".palma ellipse").css('opacity', 'unset');	
@@ -1667,7 +1650,7 @@
 		
 	});
 	
-	$("#Layer_1 g g:first-child g:nth-child(3) path").on("mouseover", function () {
+	$("#Layer_1 g:first-child g:nth-child(3) path").on("mouseover", function () {
 		$(".betlem path").css('fill', 'black');
 		$(".betlem ellipse").css('fill', 'black');
 		$(".betlem ellipse").css('opacity', '0.37');
@@ -1697,7 +1680,7 @@
 		$(".portocristo .pathellipse").css('opacity', '0.37');	
 	});
 	
-	$("#Layer_1 g g:first-child g:nth-child(3) path").on("mouseleave", function () {
+	$("#Layer_1 g:first-child g:nth-child(3) path").on("mouseleave", function () {
 		$(".betlem path").css('fill', '#706F6F');
 		$(".betlem ellipse").css('fill', '#B2B2B2');
 		$(".betlem ellipse").css('opacity', 'unset');
@@ -1727,7 +1710,7 @@
 		$(".portocristo .pathellipse").css('opacity', 'unset');
 	});
 			
-	$("#Layer_1 g g:first-child g:nth-child(5) path").on("mouseover", function () {
+	$("#Layer_1 g:first-child g:nth-child(5) path").on("mouseover", function () {
 		$(".portocolom path").css('fill', 'black');
 		$(".portocolom ellipse").css('fill', 'black');
 		$(".portocolom ellipse").css('opacity', '0.37');
@@ -1770,7 +1753,7 @@
 		
 	});
 	
-	$("#Layer_1 g g:first-child g:nth-child(5) path").on("mouseleave", function () {
+	$("#Layer_1 g:first-child g:nth-child(5) path").on("mouseleave", function () {
 		$(".portocolom path").css('fill', '#706F6F');
 		$(".portocolom ellipse").css('fill', '#B2B2B2');
 		$(".portocolom ellipse").css('opacity', 'unset');
@@ -1812,7 +1795,7 @@
 		$(".calapi ellipse").css('opacity', 'unset');		
 	});
 	
-	$("#Layer_1 g g:first-child g:nth-child(2) path").on("mouseover", function () {
+	$("#Layer_1 g:first-child g:nth-child(2) path").on("mouseover", function () {
 		$(".portdepollenca path").css('fill', 'black');
 		$(".portdepollenca rect").css('fill', 'black');
 		$(".portdepollenca ellipse").css('fill', 'black');
@@ -1873,7 +1856,7 @@
 		$(".santaponsa ellipse").css('opacity', '0.37');		
 	});
 	
-	$("#Layer_1 g g:first-child g:nth-child(2) path").on("mouseleave", function () {
+	$("#Layer_1 g:first-child g:nth-child(2) path").on("mouseleave", function () {
 		$(".portdepollenca path").css('fill', '#706F6F');
 		$(".portdepollenca rect").css('fill', '#706F6F');
 		$(".portdepollenca ellipse").css('fill', '#B2B2B2');
