@@ -331,7 +331,7 @@
 				</g>
 				<g>
 					<g>
-						<path fill="#B2B2B2" d="M486.7,255.6c1.7,0,3.1,0.3,3.1,0.7c0,0.4-1.4,0.7-3.1,0.7s-3.1-0.3-3.1-0.7S485,255.6,486.7,255.6z"
+						<path class="pathellipse" fill="#B2B2B2" d="M486.7,255.6c1.7,0,3.1,0.3,3.1,0.7c0,0.4-1.4,0.7-3.1,0.7s-3.1-0.3-3.1-0.7S485,255.6,486.7,255.6z"
 							/>
 					</g>
 				</g>
@@ -2100,8 +2100,8 @@
 		$(".manacor ellipse").css('opacity', '0.37');
 		
 		$(".portocristo path").css('fill', 'black');
-		$(".portocristo ellipse").css('fill', 'black');
-		$(".portocristo ellipse").css('opacity', '0.37');	
+		$(".portocristo .pathellipse").css('fill', 'black');
+		$(".portocristo .pathellipse").css('opacity', '0.37');	
 	});
 	
 	$("#Layer_1 g g:first-child g:nth-child(3) path").on("mouseleave", function () {
@@ -2130,8 +2130,8 @@
 		$(".manacor ellipse").css('opacity', 'unset');
 		
 		$(".portocristo path").css('fill', '#706F6F');
-		$(".portocristo ellipse").css('fill', '#B2B2B2');
-		$(".portocristo ellipse").css('opacity', 'unset');
+		$(".portocristo .pathellipse").css('fill', '#B2B2B2');
+		$(".portocristo .pathellipse").css('opacity', 'unset');
 	});
 			
 	$("#Layer_1 g g:first-child g:nth-child(5) path").on("mouseover", function () {
