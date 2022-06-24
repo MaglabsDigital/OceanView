@@ -1549,9 +1549,10 @@
 </svg>
 <script>
 $("#Layer_1 g g:nth-child(2) path").hover(function(){
-    $(this).css("fill", rgb(96,109,85));
+    $(this).css("fill", "rgb(96,109,85)");
     $(".mapicons").css("fill","black");
     }, function(){
+	$(this).css("fill", "rgb(237,237,237)");
     $(".mapicons").css("fill","grey");
 });
 </script>
