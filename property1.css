@@ -276,10 +276,6 @@
    bottom: -80px !important;
  }
 }
-@media screen and (min-width: 2400px) {
-.slick-dots {
-   bottom: 30px !important;
- }
 @media screen and (min-width: 1920px) {
   .css-8atqhb {
     min-height:1100px !important;
