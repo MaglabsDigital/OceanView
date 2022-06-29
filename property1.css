@@ -100,7 +100,7 @@
 }
 .property-details {
   width:70%;
-	margin-left:30%;
+  margin-left:30%;
   margin-bottom: 1vh;
   padding-left:20px;
   border:none;
@@ -111,14 +111,14 @@
 }
 .property-single-detail-container>div:nth-child(7) {
   grid-area:none;
-	width:70%;
-	margin-left:30%;
+  width:70%;
+  margin-left:30%;
   padding-top:0 !important;
   padding-left:20px !important;
   padding-right:60px !important;
 }
 .property-single-detail-container>div:nth-child(8) {
-	margin-left:30%;
+  margin-left:30%;
   grid-area: none;
   padding-left:20px !important;
 }
@@ -130,7 +130,7 @@
 }
 /*.chakra-heading*/
 #root>div h2, .css-1etaxf3 {
-	font-family: 'Gt super text trial book';
+  font-family: 'Gt super text trial book';
   font-size: 1rem !important;
   line-height: 1.2;
   font-weight: 400;
@@ -151,7 +151,7 @@
 }
 
 .slick-slider {
-	margin-top:0;
+  margin-top:0;
   margin-left: auto;
   margin-right: -6rem;
   padding-left: 4rem;
@@ -161,7 +161,7 @@
 	margin-top:0;
 }
 .slick-slide {
-	padding-left: 2rem;
+  padding-left: 2rem;
   padding-right: 2rem;
 }
 .slick-dots {
@@ -333,7 +333,7 @@
     margin-right: auto;
  }
 .slick-slide {
-	  padding-left: .5rem;
+	padding-left: .5rem;
     padding-right: .5rem;
  }
  .slick-dots {
@@ -381,7 +381,7 @@
     top:35rem !important;
   }
   .css-1j9zy8k {
-  display:block !important;
+    display:block !important;
   }
   .property-summary-detail-container>div {
     padding-left:0;
@@ -432,7 +432,7 @@
   }
   .css-1gballw {
     margin-top:-4rem;
-		padding-left:5px;
+	padding-left:5px;
     padding-right:5px;
   }
   .slick-dots {
@@ -447,4 +447,9 @@
   .slick-dots {
     bottom:-310px !important;
   }
+}
+@media screen and (min-width: 2400px) {
+.bar-under-hero-image.bar-adjustment-for-property-page {
+    top: 1100px;
+}
 }
