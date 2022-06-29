@@ -82,11 +82,18 @@
   margin-left:5.5rem;
   width:80%;
   font-family: 'Gt super text trial book';
-  font-size: 2.25vw;
-  line-height: 2.85vw;
+  /* font-size: 2.25vw;
+  line-height: 2.85vw; */
+  font-size: 2rem;
+  line-height: 2.4rem;
   font-weight: 400;
   text-align: left;
   z-index:1;
+}
+@media screen and (min-width: 2150px) {
+.price-description{
+	padding-bottom: 2rem;
+}
 }
 .extra-description {
 	grid-area:none;
@@ -449,7 +456,7 @@
     bottom:-310px !important;
   }
 }
-@media screen and (min-width: 2400px) {
+@media screen and (min-width: 1920px) {
 .bar-under-hero-image.bar-adjustment-for-property-page {
     top: 1100px;
 }
