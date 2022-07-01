@@ -441,7 +441,7 @@
 	c-0.4,0-0.7-0.2-0.8-0.7h2.1c0-0.1,0-0.1,0-0.2C189,147.1,188.5,146.4,187.6,146.4z M186.9,147.7c0-0.5,0.3-0.8,0.7-0.8
 	s0.7,0.4,0.7,0.8H186.9z"/>
 <path class="serramapicons" d="M190.3,147.2v-0.7h-0.7v2.9h0.7v-1.1c0-0.7,0.4-1.1,1-1.1v-0.7C190.8,146.5,190.5,146.8,190.3,147.2z"/>
-<g>
+<g class="g-raiguermapicons-shadow">
 	<g>
 		<g>
 			<ellipse style="opacity:0.37;color:black;" fill="#B2B2B2" cx="164.6" cy="261.5" rx="3.1" ry="0.7"/>
@@ -1562,10 +1562,14 @@ $("#Layer_1 g g:nth-child(1) path").hover(function(){
     	$(this).css("fill", "rgb(191,105,55)");
     	$(".raiguermapicons").css("fill","black");
 	$(".g-raiguermapicons path").css("fill","black");
+	$(".g-raiguermapicons-shadow ellipse").css("fill","unset");
+	$(".g-raiguermapicons-shadow ellipse").css("opacity","0.1");
     }, function(){
 	$(this).css("fill", "rgb(237,237,237)");
     	$(".raiguermapicons").css("fill","grey");
 	$(".g-raiguermapicons path").css("fill","grey");
+	$(".g-raiguermapicons-shadow ellipse").css("fill","#B2B2B2");
+	$(".g-raiguermapicons-shadow ellipse").css("opacity","0.37");
 });
 	
 $("#Layer_1 g g:nth-child(6) path").hover(function(){
