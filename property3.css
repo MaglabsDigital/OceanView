@@ -318,6 +318,7 @@
 .slick-dots {
     bottom: 50px !important;
 }
+}
 @media screen and (max-width: 1023px) {
   .property-single-detail-container>div:nth-child(2) {
     top:34rem !important;
