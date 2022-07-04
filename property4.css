@@ -51,7 +51,7 @@
   float:left;
   width:100px !important;
   text-align: center !important;
-  color: #fff; !important;
+  color: #fff !important;
 }
 .property-single-detail-container .property-price, 
 .property-single-detail-container .listing-bedrooms {
@@ -395,7 +395,7 @@
     padding-right:18px;
   }
  .property-single-detail-container .css-8atqhb {
-    height 100% !important;
+    height: 100% !important;
     width:auto !important;
     max-width:none !important;
   }
@@ -473,11 +473,11 @@
   }
 }
 @media screen and (min-width: 1920px) {
-.bar-under-hero-image.bar-adjustment-for-property-page {
-    top: 1100px;
+	.bar-under-hero-image.bar-adjustment-for-property-page {
+		top: 1100px;
+	}
 }
-}
-li.property-single-list-item. css-0 {
+li.property-single-list-item.css-0 {
     font-family: Gotham, sans-serif;
     font-size: 14px;
     font-weight: 600;
@@ -487,8 +487,8 @@ span.property-single-feature-list-heading, span.property-single-reference {
     text-transform: uppercase;
 }
 @media screen and (max-width: 614px) {
-.css-153bemv{
-	gap: 20px;
-	grid-template-columns: repeat(1, minmax(0px, 1fr));
-}	
+	.css-153bemv{
+		gap: 20px;
+		grid-template-columns: repeat(1, minmax(0px, 1fr));
+	}	
 }
