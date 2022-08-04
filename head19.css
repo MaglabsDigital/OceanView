@@ -1,0 +1,749 @@
+body {
+  overflow-x:hidden!important;
+}
+
+#email-form select, #email-form select option {
+  -moz-appearance: none;
+  -webkit-appearance: none;
+  appearance: none;
+  background: url("data:image/svg+xml,%3Csvg version='1.1' id='Layer_1' xmlns='http://www.w3.org/2000/svg' xmlns:xlink='http://www.w3.org/1999/xlink' x='0px' y='0px' width='10px' height='10px' viewBox='0 0 22.7 22.7' enable-background='new 0 0 22.7 22.7' xml:space='preserve'%3E%3Cpolyline fill='none' stroke='%235C6E73' stroke-width='3' stroke-linecap='round' stroke-miterlimit='10' points='20.6,7.3 11.5,15.5 2.5,7.3 '/%3E%3C/svg%3E") no-repeat;
+    background-position-x: 0%;
+    background-position-y: 0%;
+  background-position: calc(100% - 10px) center;
+  outline: none !important;
+  border-top-left-radius: 0 !important;
+  border-top-right-radius: 0 !important;
+  border-bottom-right-radius: 0 !important;
+  border-bottom-left-radius: 0 !important;
+}
+
+#email-form select option:checked, select #email-form option:hover, #email-form .reset-button:hover {
+  opacity:.7;
+}  
+  
+#email-form {
+  -webkit-appearance: none;
+  -moz-appearance: none !important;
+  font-family: 'Gotham', san-serif !important;
+}
+
+.heading-block h1 {
+ margin-top: 0px;
+ margin-bottom: 10px;
+ font-family: 'Gt super text trial book';
+ font-size: 4.6vw;
+ line-height: 6vw;
+ font-weight: 400;
+}
+
+.quote-box h1 {
+  margin-top: 0px;
+  margin-bottom: 10px;
+  font-family: 'Gt super text trial book';
+  font-size: 4.6vw;
+  line-height: 6vw;
+  font-weight: 400;
+}
+.div-space-between h1 {
+  font-size: 4.6vw !important;
+  line-height: 6vw;
+}
+  
+.quote-box h2 {
+  margin-top: 0px;
+  margin-bottom: 10px;
+  font-family: 'Gt super text trial book';
+  font-size: 2.5vw;
+  line-height: 3vw;
+  font-weight: 400;
+  text-align: left;
+}
+.sub h2 {
+  font-size: 2.5vw !important;
+  line-height: 3vw;
+}
+
+.header-section h3 {
+  margin-top: 0px;
+  margin-bottom: 10px;
+  font-family: 'Gt super text trial book';
+  font-size: 2vw;
+  line-height: 3vw;
+  font-weight: 400;
+}
+  
+.w-embed {
+  min-height:450px;
+}
+.oceanviewmap .w-embed {
+  min-height: 100px;
+}
+
+#root>div {
+  margin-left:auto;
+  margin-right:auto;
+}
+#root>div h2 {
+  margin-top: 0px;
+  margin-bottom: 10px;
+  font-family: 'Gt super text trial book';
+  color: #000;
+  font-size: 1rem;
+  line-height: 1.2;
+  font-weight: 400;
+  text-align: left;
+  }
+#root>div p {
+  margin-top: 0px;
+  margin-bottom: 10px;
+  color: #000;
+  font-size: 1.1rem;
+  line-height: 1.2;
+  font-weight: 700;
+}
+.sale-price, .listing-bedrooms, .listing-size {
+  font-family: 'Gotham', san-serif !important;
+  font-weight:400 !important;
+  font-size:.7rem !important;
+  line-height:1 !important;
+  width:auto;
+  margin-right: 0.6rem;
+  letter-spacing: 1.5px;
+}
+.listing-size {
+  width:70px;
+}
+.listing-bedrooms, .listing-size {
+  margin-top:10px !important;
+  text-align:right;
+  text-transform:uppercase;
+  width: auto;
+  margin-inline: 1rem 0px;
+  padding-right: 0.6rem;
+}
+
+.listing-description {
+  margin-top: 0px;
+  margin-bottom: 10px;
+  font-family: 'Gt super text trial book';
+  color: #000;
+  font-size: 1rem;
+  line-height: 19px;
+  font-weight: 400;
+  text-align: left;
+}
+.property-summary-detail-container p span {
+  font-family: 'Gotham', san-serif !important;
+  margin-top: 0px;
+  margin-bottom: 10px;
+  color: #000;
+  font-size: 1rem;
+  line-height: 1.2;
+  font-weight: 400;
+  letter-spacing: 1.5px;
+  text-transform: uppercase;
+}
+span.newProperty {
+    text-align: right;
+    position: absolute;
+    top: 45px;
+    font-size: 12px !important;
+    color: #ef5555 !important;
+    right: 0px;
+}
+
+#root>div>div:nth-child(1) { grid-area: g1; }
+#root>div>div:nth-child(2) { grid-area: g2; }
+#root>div>div:nth-child(3) { grid-area: g3; }
+#root>div>div:nth-child(4) { grid-area: g4; }
+#root>div>div:nth-child(5) { grid-area: g5; }
+#root>div>div:nth-child(6) { grid-area: g6; }
+
+#root>div>div:nth-child(8) { grid-area: g8; }
+#root>div>div:nth-child(9) { grid-area: g9; }
+#root>div>div:nth-child(10) { grid-area: g10; }
+#root>div>div:nth-child(11) { grid-area: g11; }
+#root>div>div:nth-child(12) { grid-area: g12; }
+#root>div>div:nth-child(13) { grid-area: g13; }
+
+#root>div>div:nth-child(15) { grid-area: g15; }
+#root>div>div:nth-child(16) { grid-area: g16; }
+#root>div>div:nth-child(17) { grid-area: g17; }
+#root>div>div:nth-child(18) { grid-area: g18; }
+#root>div>div:nth-child(19) { grid-area: g19; }
+#root>div>div:nth-child(20) { grid-area: g20; }
+
+#root>div>div:nth-child(22) { grid-area: g22; }
+#root>div>div:nth-child(23) { grid-area: g23; }
+#root>div>div:nth-child(24) { grid-area: g24; }
+#root>div>div:nth-child(25) { grid-area: g25; }
+#root>div>div:nth-child(26) { grid-area: g26; }
+#root>div>div:nth-child(27) { grid-area: g27; }
+
+#root>div>div:nth-child(29) { grid-area: g29; }
+#root>div>div:nth-child(30) { grid-area: g30; }
+#root>div>div:nth-child(31) { grid-area: g31; }
+#root>div>div:nth-child(32) { grid-area: g32; }
+#root>div>div:nth-child(33) { grid-area: g33; }
+#root>div>div:nth-child(34) { grid-area: g34; }
+
+#root>div>div:nth-child(36) { grid-area: g36; }
+#root>div>div:nth-child(37) { grid-area: g37; }
+#root>div>div:nth-child(38) { grid-area: g38; }
+#root>div>div:nth-child(39) { grid-area: g39; }
+#root>div>div:nth-child(40) { grid-area: g40; }
+#root>div>div:nth-child(41) { grid-area: g41; }
+
+#root>div>div:nth-child(43) { grid-area: g43; }
+#root>div>div:nth-child(44) { grid-area: g44; }
+#root>div>div:nth-child(45) { grid-area: g45; }
+#root>div>div:nth-child(46) { grid-area: g46; }
+#root>div>div:nth-child(47) { grid-area: g47; }
+#root>div>div:nth-child(48) { grid-area: g48; }
+
+#root>div>div:nth-child(50) { grid-area: g50; }
+#root>div>div:nth-child(51) { grid-area: g51; }
+#root>div>div:nth-child(52) { grid-area: g52; }
+#root>div>div:nth-child(53) { grid-area: g53; }
+#root>div>div:nth-child(54) { grid-area: g54; }
+#root>div>div:nth-child(55) { grid-area: g55; }
+  
+#root>div>div:nth-child(57) { grid-area: g57; }
+#root>div>div:nth-child(58) { grid-area: g58; }
+#root>div>div:nth-child(59) { grid-area: g59; }
+#root>div>div:nth-child(60) { grid-area: g60; }
+#root>div>div:nth-child(61) { grid-area: g61; }
+#root>div>div:nth-child(62) { grid-area: g62; }
+  
+#root>div>div:nth-child(64) { grid-area: g64; }
+#root>div>div:nth-child(65) { grid-area: g65; }
+#root>div>div:nth-child(66) { grid-area: g66; }
+#root>div>div:nth-child(67) { grid-area: g67; }
+#root>div>div:nth-child(68) { grid-area: g68; }
+#root>div>div:nth-child(69) { grid-area: g69; }
+  
+#root>div>div:nth-child(71) { grid-area: g71; }
+#root>div>div:nth-child(72) { grid-area: g72; }
+#root>div>div:nth-child(73) { grid-area: g73; }
+#root>div>div:nth-child(74) { grid-area: g74; }
+#root>div>div:nth-child(75) { grid-area: g75; }
+#root>div>div:nth-child(76) { grid-area: g76; }  
+
+  #root>div {
+  
+    grid-template-areas:
+    "g1 g2 g3"
+    "g4 g4 g5"
+    "g4 g4 g6"
+    "full1 full1 full1"
+    "g8 g9 g10"
+    "g11 g11 g12"
+    "g11 g11 g13"
+    "full2 full2 full2"
+    "g15 g16 g17"
+    "g18 g18 g19"
+    "g18 g18 g20"
+    "full3 full3 full3"
+    "g22 g23 g24"
+    "g25 g25 g26"
+    "g25 g25 g27"
+    "full4 full4 full4"
+    "g29 g30 g31"
+    "g32 g32 g33"
+    "g32 g32 g34"
+    "full5 full5 full5"
+    "g36 g37 g38"
+    "g39 g39 g40"
+    "g39 g39 g41"
+    "full6 full6 full6"
+    "g43 g44 g45"
+    "g46 g46 g47"
+    "g46 g46 g48"
+    "full7 full7 full7"
+    "g50 g51 g52"
+    "g53 g53 g54"
+    "g53 g53 g55"
+    "full8 full8 full8"
+    "g57 g58 g59"
+    "g60 g60 g61"
+    "g60 g60 g62"
+    "full9 full9 full9"
+    "g64 g65 g66"
+    "g67 g67 g68"
+    "g67 g67 g69"
+    "full10 full10 full10"
+    "g71 g72 g73"
+    "g74 g74 g75"
+    "g74 g74 g76"
+    "full11 full11 full11";
+}
+#root>div h2 {
+  margin-bottom:0;
+}
+.chakra-stack {
+  margin-top:0 !important;
+}
+.listing-description {
+  margin-bottom:0;
+}
+#root>div>div:nth-child(7) {
+  grid-area: full1;
+}
+#root>div>div:nth-child(14) {
+  grid-area: full2;
+}
+#root>div>div:nth-child(21) {
+  grid-area: full3;
+}
+#root>div>div:nth-child(28) {
+  grid-area: full4;
+}
+#root>div>div:nth-child(35) {
+  grid-area: full5;
+}
+#root>div>div:nth-child(42) {
+  grid-area: full6;
+}
+#root>div>div:nth-child(49) {
+  grid-area: full7;
+}
+#root>div>div:nth-child(56) {
+  grid-area: full8;
+}
+#root>div>div:nth-child(63) {
+  grid-area: full9;
+}
+#root>div>div:nth-child(70) {
+  grid-area: full10;
+}
+#root>div>div:nth-child(77) {
+  grid-area: full11;
+}
+.css-1gqsic3 {
+  border-radius: 0 !important;
+}
+
+#box {
+  padding-top:0;
+  padding-left:0;
+  padding-right:0;
+  padding-bottom:0;
+}
+#box>div {
+  border-radius: 0;
+  max-width:none;
+  box-shadow:none;
+  min-height:435px;
+}
+#box>div {
+  border-radius: 0;
+  max-width:none;
+  box-shadow:none;
+  min-height:435px;
+}
+.property-summary-detail-container>div {
+  padding: var(--chakra-space-6);
+}
+#box>div>div {
+  margin-top: -1rem !important;
+  height:auto;
+}
+#box>div>div:nth-child(2) {
+  position:relative;
+  margin-top:-1rem;
+  -webkit-box-align: start;
+  align-items: start;
+  z-index:3
+}
+#root>div>div:nth-child(4)>div>div>div, 
+#root>div>div:nth-child(11)>div>div>div, 
+#root>div>div:nth-child(18)>div>div>div, 
+#root>div>div:nth-child(25)>div>div>div, 
+#root>div>div:nth-child(32)>div>div>div, 
+#root>div>div:nth-child(39)>div>div>div, 
+#root>div>div:nth-child(46)>div>div>div, 
+#root>div>div:nth-child(53)>div>div>div, 
+#root>div>div:nth-child(60)>div>div>div, 
+#root>div>div:nth-child(67)>div>div>div, 
+#root>div>div:nth-child(74)>div>div>div {
+  height:694px;
+}
+#root>div>div:nth-child(4) .chakra-heading, 
+#root>div>div:nth-child(11) .chakra-heading, 
+#root>div>div:nth-child(18) .chakra-heading, 
+#root>div>div:nth-child(25) .chakra-heading, 
+#root>div>div:nth-child(32) .chakra-heading, 
+#root>div>div:nth-child(39) .chakra-heading, 
+#root>div>div:nth-child(46) .chakra-heading, 
+#root>div>div:nth-child(53) .chakra-heading, 
+#root>div>div:nth-child(60) .chakra-heading, 
+#root>div>div:nth-child(67) .chakra-heading, 
+#root>div>div:nth-child(74) .chakra-heading {
+  width: 45%;
+}
+#box>div>div>img {
+  width:468px;
+  height:255px;
+  margin-left:auto;
+  margin-right:auto;
+}
+
+#root>div>div:nth-child(7) #box>div {
+  z-index:3;
+}
+
+#root>div>div:nth-child(4) #box>div>div>img,
+#root>div>div:nth-child(11) #box>div>div>img,
+#root>div>div:nth-child(18) #box>div>div>img,
+#root>div>div:nth-child(25) #box>div>div>img,
+#root>div>div:nth-child(32) #box>div>div>img,
+#root>div>div:nth-child(39) #box>div>div>img,
+#root>div>div:nth-child(46) #box>div>div>img,
+#root>div>div:nth-child(53) #box>div>div>img,
+#root>div>div:nth-child(60) #box>div>div>img,
+#root>div>div:nth-child(67) #box>div>div>img,
+#root>div>div:nth-child(74) #box>div>div>img {
+  /* width:936px; */
+  width:100%;
+  height:694px;
+}
+#root>div>div:nth-child(7) #box>div>div>img,
+#root>div>div:nth-child(14) #box>div>div>img,
+#root>div>div:nth-child(21) #box>div>div>img,
+#root>div>div:nth-child(28) #box>div>div>img,
+#root>div>div:nth-child(35) #box>div>div>img,
+#root>div>div:nth-child(42) #box>div>div>img,
+#root>div>div:nth-child(49) #box>div>div>img,
+#root>div>div:nth-child(56) #box>div>div>img,
+#root>div>div:nth-child(63) #box>div>div>img,
+#root>div>div:nth-child(70) #box>div>div>img,
+#root>div>div:nth-child(77) #box>div>div>img {
+  width:100%;
+  height:auto;
+  min-height:600px;
+  max-height:600px;
+  margin-bottom:30px;
+}
+#box>div>div::after{
+  display: none !important;
+}
+.centerPropertyText{
+  text-align: center;
+  padding-bottom: 2%;
+}
+.sale-price, .listing-bedrooms {
+  text-align:left !important;
+  }
+.priceOptionDisable{
+  pointer-events:none;
+  color: lightgrey;
+}
+
+.is-scrolled {
+    background-color: #fff;
+}
+.full-screen-propertie {
+  margin-top:20px;
+}
+@media screen and (min-width: 768px) {
+  .filter-search {
+    width: 10%;
+  }
+}
+@media screen and (min-width: 992px) {  
+  .filter-search {
+      width: 15%;
+  }
+  #root>div>div:nth-child(7) #box>div>div:nth-child(2),
+  #root>div>div:nth-child(14) #box>div>div:nth-child(2),
+  #root>div>div:nth-child(21) #box>div>div:nth-child(2),
+  #root>div>div:nth-child(28) #box>div>div:nth-child(2),
+  #root>div>div:nth-child(35) #box>div>div:nth-child(2),
+  #root>div>div:nth-child(42) #box>div>div:nth-child(2),
+  #root>div>div:nth-child(49) #box>div>div:nth-child(2),
+  #root>div>div:nth-child(56) #box>div>div:nth-child(2),
+  #root>div>div:nth-child(63) #box>div>div:nth-child(2),
+  #root>div>div:nth-child(70) #box>div>div:nth-child(2),
+  #root>div>div:nth-child(77) #box>div>div:nth-child(2) {
+    position:absolute;
+    top:2rem;
+    left:7.5rem;
+    color:#fff !important;
+    z-index:3;
+    width:62%;
+  }
+  #root>div>div:nth-child(7) #box>div>div:nth-child(2) .chakra-text,
+  #root>div>div:nth-child(14) #box>div>div:nth-child(2) .chakra-text,
+  #root>div>div:nth-child(21) #box>div>div:nth-child(2) .chakra-text,
+  #root>div>div:nth-child(28) #box>div>div:nth-child(2) .chakra-text,
+  #root>div>div:nth-child(35) #box>div>div:nth-child(2) .chakra-text,
+  #root>div>div:nth-child(42) #box>div>div:nth-child(2) .chakra-text,
+  #root>div>div:nth-child(49) #box>div>div:nth-child(2) .chakra-text,
+  #root>div>div:nth-child(56) #box>div>div:nth-child(2) .chakra-text,
+  #root>div>div:nth-child(63) #box>div>div:nth-child(2) .chakra-text,
+  #root>div>div:nth-child(70) #box>div>div:nth-child(2) .chakra-text,
+  #root>div>div:nth-child(77) #box>div>div:nth-child(2) .chakra-text {
+    margin-top:42rem !important;
+    color:#fff !important;
+  }
+  #root>div>div:nth-child(7) #box>div>div:nth-child(2) .chakra-text span,
+  #root>div>div:nth-child(14) #box>div>div:nth-child(2) .chakra-text span,
+  #root>div>div:nth-child(21) #box>div>div:nth-child(2) .chakra-text span,
+  #root>div>div:nth-child(28) #box>div>div:nth-child(2) .chakra-text span,
+  #root>div>div:nth-child(35) #box>div>div:nth-child(2) .chakra-text span,
+  #root>div>div:nth-child(42) #box>div>div:nth-child(2) .chakra-text span,
+  #root>div>div:nth-child(49) #box>div>div:nth-child(2) .chakra-text span,
+  #root>div>div:nth-child(56) #box>div>div:nth-child(2) .chakra-text span,
+  #root>div>div:nth-child(63) #box>div>div:nth-child(2) .chakra-text span,
+  #root>div>div:nth-child(70) #box>div>div:nth-child(2) .chakra-text span,
+  #root>div>div:nth-child(77) #box>div>div:nth-child(2) .chakra-text span {
+    color:#fff !important;
+  }
+  #root>div>div:nth-child(7) #box>div>div:nth-child(2) .chakra-text span.newProperty,
+  #root>div>div:nth-child(14) #box>div>div:nth-child(2) .chakra-text span.newProperty,
+  #root>div>div:nth-child(21) #box>div>div:nth-child(2) .chakra-text span.newProperty,
+  #root>div>div:nth-child(28) #box>div>div:nth-child(2) .chakra-text span.newProperty,
+  #root>div>div:nth-child(35) #box>div>div:nth-child(2) .chakra-text span.newProperty,
+  #root>div>div:nth-child(42) #box>div>div:nth-child(2) .chakra-text span.newProperty,
+  #root>div>div:nth-child(49) #box>div>div:nth-child(2) .chakra-text span.newProperty,
+  #root>div>div:nth-child(56) #box>div>div:nth-child(2) .chakra-text span.newProperty,
+  #root>div>div:nth-child(63) #box>div>div:nth-child(2) .chakra-text span.newProperty,
+  #root>div>div:nth-child(70) #box>div>div:nth-child(2) .chakra-text span.newProperty,
+  #root>div>div:nth-child(77) #box>div>div:nth-child(2) .chakra-text span.newProperty {
+    position: absolute;
+    bottom: 73px;
+    font-size: 12px !important;
+    color: #ef5555 !important;
+    left: 0px;
+	right: unset;
+	top: unset;
+  }
+  #root>div>div:nth-child(7) #box>div>div:nth-child(2) .listing-description,
+  #root>div>div:nth-child(14) #box>div>div:nth-child(2) .listing-description,
+  #root>div>div:nth-child(21) #box>div>div:nth-child(2) .listing-description,
+  #root>div>div:nth-child(28) #box>div>div:nth-child(2) .listing-description,
+  #root>div>div:nth-child(35) #box>div>div:nth-child(2) .listing-description,
+  #root>div>div:nth-child(42) #box>div>div:nth-child(2) .listing-description,
+  #root>div>div:nth-child(49) #box>div>div:nth-child(2) .listing-description,
+  #root>div>div:nth-child(56) #box>div>div:nth-child(2) .listing-description,
+  #root>div>div:nth-child(63) #box>div>div:nth-child(2) .listing-description,
+  #root>div>div:nth-child(70) #box>div>div:nth-child(2) .listing-description,
+  #root>div>div:nth-child(77) #box>div>div:nth-child(2) .listing-description {
+    margin-top:-42rem;
+    font-family: 'Gt super text trial book';
+    color: #fff !important;
+    font-size: 2.5vw;
+    line-height: 3vw;
+    font-weight: 400;
+    font-style: italic;
+    text-shadow: 0 0 20px #666;
+  }
+  #root>div>div:nth-child(7) #box,
+  #root>div>div:nth-child(7) #box>div,
+  #root>div>div:nth-child(14) #box,
+  #root>div>div:nth-child(14) #box>div,
+  #root>div>div:nth-child(21) #box,
+  #root>div>div:nth-child(21) #box>div,
+  #root>div>div:nth-child(28) #box,
+  #root>div>div:nth-child(28) #box>div,
+  #root>div>div:nth-child(35) #box,
+  #root>div>div:nth-child(35) #box>div,
+  #root>div>div:nth-child(42) #box,
+  #root>div>div:nth-child(42) #box>div,
+  #root>div>div:nth-child(49) #box,
+  #root>div>div:nth-child(49) #box>div,
+  #root>div>div:nth-child(56) #box,
+  #root>div>div:nth-child(56) #box>div,
+  #root>div>div:nth-child(63) #box,
+  #root>div>div:nth-child(63) #box>div,
+  #root>div>div:nth-child(70) #box,
+  #root>div>div:nth-child(70) #box>div,
+  #root>div>div:nth-child(77) #box,
+  #root>div>div:nth-child(77) #box>div {
+    padding-left:0;
+    padding-right:0;
+    margin-left:-4vw;
+    width: calc(100% + 8vw);
+	margin-top: 1vh;
+    margin-bottom: 1vh;
+  }
+  #root>div>div:nth-child(7),
+  #root>div>div:nth-child(14),
+  #root>div>div:nth-child(21),
+  #root>div>div:nth-child(28),
+  #root>div>div:nth-child(35),
+  #root>div>div:nth-child(42),
+  #root>div>div:nth-child(49),
+  #root>div>div:nth-child(56),
+  #root>div>div:nth-child(63),
+  #root>div>div:nth-child(70),
+  #root>div>div:nth-child(77) {
+    padding-bottom:0;
+  }  
+  #root>div>div:nth-child(7) #box>div>div:nth-child(2) .chakra-stack,
+  #root>div>div:nth-child(14) #box>div>div:nth-child(2) .chakra-stack,
+  #root>div>div:nth-child(21) #box>div>div:nth-child(2) .chakra-stack,
+  #root>div>div:nth-child(28) #box>div>div:nth-child(2) .chakra-stack,
+  #root>div>div:nth-child(35) #box>div>div:nth-child(2) .chakra-stack,
+  #root>div>div:nth-child(42) #box>div>div:nth-child(2) .chakra-stack,
+  #root>div>div:nth-child(49) #box>div>div:nth-child(2) .chakra-stack,
+  #root>div>div:nth-child(56) #box>div>div:nth-child(2) .chakra-stack,
+  #root>div>div:nth-child(63) #box>div>div:nth-child(2) .chakra-stack,
+  #root>div>div:nth-child(70) #box>div>div:nth-child(2) .chakra-stack,
+  #root>div>div:nth-child(77) #box>div>div:nth-child(2) .chakra-stack {
+	align-items:initial;
+  }
+  #root>div>div:nth-child(7) #box>div>div:nth-child(2) .chakra-stack .listing-bedrooms,
+  #root>div>div:nth-child(7) #box>div>div:nth-child(2) .chakra-stack .listing-size,
+  #root>div>div:nth-child(14) #box>div>div:nth-child(2) .chakra-stack .listing-bedrooms,
+  #root>div>div:nth-child(14) #box>div>div:nth-child(2) .chakra-stack .listing-size,
+  #root>div>div:nth-child(21) #box>div>div:nth-child(2) .chakra-stack .listing-bedrooms,
+  #root>div>div:nth-child(21) #box>div>div:nth-child(2) .chakra-stack .listing-size,
+  #root>div>div:nth-child(28) #box>div>div:nth-child(2) .chakra-stack .listing-bedrooms,
+  #root>div>div:nth-child(28) #box>div>div:nth-child(2) .chakra-stack .listing-size,
+  #root>div>div:nth-child(35) #box>div>div:nth-child(2) .chakra-stack .listing-bedrooms,
+  #root>div>div:nth-child(35) #box>div>div:nth-child(2) .chakra-stack .listing-size,
+  #root>div>div:nth-child(42) #box>div>div:nth-child(2) .chakra-stack .listing-bedrooms,
+  #root>div>div:nth-child(42) #box>div>div:nth-child(2) .chakra-stack .listing-size,
+  #root>div>div:nth-child(49) #box>div>div:nth-child(2) .chakra-stack .listing-bedrooms,
+  #root>div>div:nth-child(49) #box>div>div:nth-child(2) .chakra-stack .listing-size,
+  #root>div>div:nth-child(56) #box>div>div:nth-child(2) .chakra-stack .listing-bedrooms,
+  #root>div>div:nth-child(56) #box>div>div:nth-child(2) .chakra-stack .listing-size,
+  #root>div>div:nth-child(63) #box>div>div:nth-child(2) .chakra-stack .listing-bedrooms,
+  #root>div>div:nth-child(63) #box>div>div:nth-child(2) .chakra-stack .listing-size,
+  #root>div>div:nth-child(70) #box>div>div:nth-child(2) .chakra-stack .listing-bedrooms,
+  #root>div>div:nth-child(70) #box>div>div:nth-child(2) .chakra-stack .listing-size,
+  #root>div>div:nth-child(77) #box>div>div:nth-child(2) .chakra-stack .listing-bedrooms,
+  #root>div>div:nth-child(77) #box>div>div:nth-child(2) .chakra-stack .listing-size {  
+    margin-top:0 !important;
+    color:#fff !important;
+  }
+  #email-form select, #email-form select option {
+    background-position: calc(100% - 8px) center;
+  }
+}  
+@media screen and (min-width: 1100px) { 
+  #email-form select, #email-form select option {
+    background-position: calc(100% - 10px) center;
+  }
+}
+@media screen and (min-width: 1300px) {  
+  #root>div>div:nth-child(7) #box>div>div:nth-child(2),
+  #root>div>div:nth-child(14) #box>div>div:nth-child(2),
+  #root>div>div:nth-child(21) #box>div>div:nth-child(2),
+  #root>div>div:nth-child(28) #box>div>div:nth-child(2),
+  #root>div>div:nth-child(35) #box>div>div:nth-child(2),
+  #root>div>div:nth-child(42) #box>div>div:nth-child(2),
+  #root>div>div:nth-child(49) #box>div>div:nth-child(2),
+  #root>div>div:nth-child(56) #box>div>div:nth-child(2),
+  #root>div>div:nth-child(63) #box>div>div:nth-child(2),
+  #root>div>div:nth-child(70) #box>div>div:nth-child(2),
+  #root>div>div:nth-child(77) #box>div>div:nth-child(2) {
+    left:8.5rem;
+  }
+} 
+@media screen and (min-width: 768px) and (max-width: 991px){
+  /* #email-form select, #email-form .reset-button { 
+    font-size: 11px !important; 
+  } */
+  #email-form select, #email-form select option { 
+    background: url("");
+  }
+}
+@media screen and (max-width: 991px){
+	.listing-description {
+		font-size: 14px;
+		line-height: 16px;
+	}
+	#root>div>div:nth-child(7) #box>div>div>img,
+	#root>div>div:nth-child(14) #box>div>div>img,
+	#root>div>div:nth-child(21) #box>div>div>img,
+	#root>div>div:nth-child(28) #box>div>div>img,
+	#root>div>div:nth-child(35) #box>div>div>img,
+	#root>div>div:nth-child(42) #box>div>div>img,
+	#root>div>div:nth-child(49) #box>div>div>img,
+	#root>div>div:nth-child(56) #box>div>div>img,
+	#root>div>div:nth-child(63) #box>div>div>img,
+	#root>div>div:nth-child(70) #box>div>div>img,
+	#root>div>div:nth-child(77) #box>div>div>img {
+	  min-height:unset;
+	}
+	#root>div>div:nth-child(4) .chakra-heading, 
+	#root>div>div:nth-child(11) .chakra-heading, 
+	#root>div>div:nth-child(18) .chakra-heading, 
+	#root>div>div:nth-child(25) .chakra-heading, 
+	#root>div>div:nth-child(32) .chakra-heading, 
+	#root>div>div:nth-child(39) .chakra-heading, 
+	#root>div>div:nth-child(46) .chakra-heading, 
+	#root>div>div:nth-child(53) .chakra-heading, 
+	#root>div>div:nth-child(60) .chakra-heading, 
+	#root>div>div:nth-child(67) .chakra-heading, 
+	#root>div>div:nth-child(74) .chakra-heading {
+		width: 100%;
+	}
+	#root>div>div:nth-child(7) #box>div>div>img,
+	#root>div>div:nth-child(14) #box>div>div>img,
+	#root>div>div:nth-child(21) #box>div>div>img,
+	#root>div>div:nth-child(28) #box>div>div>img,
+	#root>div>div:nth-child(35) #box>div>div>img,
+	#root>div>div:nth-child(42) #box>div>div>img,
+	#root>div>div:nth-child(49) #box>div>div>img,
+	#root>div>div:nth-child(56) #box>div>div>img,
+	#root>div>div:nth-child(63) #box>div>div>img,
+	#root>div>div:nth-child(70) #box>div>div>img,
+	#root>div>div:nth-child(77) #box>div>div>img {
+	  margin-bottom:0px;
+	}
+  #root>div>div:nth-child(7) #box>div>div:nth-child(2) .chakra-text span.newProperty,
+  #root>div>div:nth-child(14) #box>div>div:nth-child(2) .chakra-text span.newProperty,
+  #root>div>div:nth-child(21) #box>div>div:nth-child(2) .chakra-text span.newProperty,
+  #root>div>div:nth-child(28) #box>div>div:nth-child(2) .chakra-text span.newProperty,
+  #root>div>div:nth-child(35) #box>div>div:nth-child(2) .chakra-text span.newProperty,
+  #root>div>div:nth-child(42) #box>div>div:nth-child(2) .chakra-text span.newProperty,
+  #root>div>div:nth-child(49) #box>div>div:nth-child(2) .chakra-text span.newProperty,
+  #root>div>div:nth-child(56) #box>div>div:nth-child(2) .chakra-text span.newProperty,
+  #root>div>div:nth-child(63) #box>div>div:nth-child(2) .chakra-text span.newProperty,
+  #root>div>div:nth-child(70) #box>div>div:nth-child(2) .chakra-text span.newProperty,
+  #root>div>div:nth-child(77) #box>div>div:nth-child(2) .chakra-text span.newProperty {
+    top: 45px;
+    right: 0px;
+	left: unset;
+	bottom: unset;
+}
+}
+@media screen and (min-width: 1280px){
+	.listing-description{
+		line-height: 22.5px;
+	}
+	.property-summary-detail-container>div {
+		padding: var(--chakra-space-7);
+}
+}
+@media screen and (min-width: 1440px){
+	.listing-description{
+		font-size: 18px;
+		line-height: 27px;
+	}
+}
+.css-11igkha{
+	font-family: 'Gotham', san-serif !important;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1;
+	letter-spacing: 1.5px;
+	margin-bottom: 40px;
+	text-transform: uppercase;
+}
+p.chakra-text .css-8m28ud {
+    margin-bottom: 0px !important;
+}
+@media screen and (max-width: 660px){
+	#box>div>div>img {
+		max-height: 300px;
+	}
+}
+@media screen and (min-width: 661px) and (max-width: 991px){
+	#box>div>div>img {
+		max-height: 400px;
+	}
+}
