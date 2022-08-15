@@ -1,0 +1,540 @@
+.property-single-detail-container {
+  padding-left:0 !important;
+  padding-right:0 !important;
+  grid-template-areas:none !important;
+  max-width:none !important;
+}
+.property-single-detail-container .chakra-image {
+	filter: brightness(70%);
+}
+#box>div>div>img {
+  width:468px;
+  height:252px;
+  object-fit: cover !important;
+  object-position:center !important;
+}
+.css-8atqhb {
+  object-fit: cover !important;
+  min-height:850px !important;
+  max-height:850px !important;
+}
+.property-single-detail-container>div:nth-child(2) {
+  position:absolute;
+  margin-left:5.5vw !important;
+  margin-right:5.5vw !important;
+  z-index:3;
+  width:70%;
+  top:32rem !important;
+}
+.property-single-detail-container>div:nth-child(2) p {
+  color: #fff !important;
+}
+.property-single-detail-container .listing-description {
+  font-family: 'Gt super text trial book';
+  font-size: 3.5vw;
+  line-height: 4vw;
+  font-weight: 400;
+  font-style: italic;
+  color:#fff !important;
+  margin-bottom: 25px;
+}
+.property-single-detail-container p span {
+  font-family: 'Gt super text trial book';
+  color: #000;
+  font-size: 1rem;
+  line-height: 1.2;
+  font-weight: 400;
+  text-align: left;
+}
+.property-single-detail-container .property-price, 
+.property-single-detail-container .listing-bedrooms, 
+.property-single-detail-container .listing-size {
+  float:left;
+  width: auto !important;
+  text-align: center !important;
+  color: #fff !important;
+}
+.property-single-detail-container .property-price, 
+.property-single-detail-container .listing-bedrooms {
+	text-align: left !important;
+}
+.property-single-detail-container .listing-size {
+    margin-top:.5rem;
+}
+.property-single-detail-container .property-price {
+    font-family: 'Gotham', san-serif !important;
+    font-weight: 400 !important;
+    font-size: .7rem !important;
+    line-height: 1 !important;
+	letter-spacing: 1.5px;
+    margin-top: 11px;
+    margin-bottom: 10px;
+	margin-right: 0.6rem;
+}
+.property-single-detail-container .chakra-button {
+  display:none;
+}
+.property-single-detail-container #map {
+  margin-top:5rem;
+  height:90vh !important;
+}
+@media screen and (min-width: 1920px){
+	.property-single-detail-container #map{
+		height:70vh !important;
+	}
+}
+.price-description {
+  position:relative;
+  grid-area:none;
+  margin-top:7.5rem;
+  margin-left:5.5vw;
+  margin-right:5.5vw;
+  width:80%;
+  font-family: 'Gt super text trial book';
+  /* font-size: 2.2rem;
+  line-height: 2.6rem; */
+  font-size: 2.5vw !important;
+  line-height: 3vw;
+  font-weight: 400;
+  text-align: left;
+  z-index:1;
+}
+@media screen and (min-width: 2150px) {
+.price-description{
+	padding-bottom: 2rem;
+}
+}
+.extra-description {
+  grid-area:none;
+  width:70%;
+  margin-left:30%;
+  padding-left:20px !important;
+  padding-right: 5.5vw !important;
+  font-family: 'Gt super text trial book';
+  font-size: 2.5vw;
+  line-height: 3vw;
+  /*font-size: 2rem;
+  line-height: 2.4rem;*/
+  font-weight: 400;
+}
+.property-details {
+  width:70%;
+  margin-left:30%;
+  margin-bottom: 1vh;
+  padding-left:20px;
+  border:none;
+}
+.property-details, .css-15zeq37{
+    font-family: 'Gotham', san-serif !important;
+    font-size: 0.9rem;
+    line-height: 1.1;
+    letter-spacing: 1.5px;
+    font-weight: 400;
+}
+.property-single-detail-container>div:nth-child(7) {
+  grid-area:none;
+  width:70%;
+  margin-left:30%;
+  padding-top:0 !important;
+  padding-left:20px !important;
+  padding-right:5.5vw !important;
+}
+.property-single-detail-container>div:nth-child(8) {
+  margin-left:30%;
+  grid-area: none;
+  padding-left:20px !important;
+}
+.property-single-feature-grid, .property-single-feature-container .chakra-text {
+	grid-area: none;
+  font-family: 'Gotham', san-serif !important;
+  font-size: .9rem !important;
+  font-weight: 400 !important;
+}
+/*.chakra-heading*/
+#root>div h2, .css-1etaxf3 {
+  font-family: 'Gt super text trial book';
+  font-size: 1rem !important;
+  line-height: 1.2;
+  font-weight: 400;
+  text-align: left;
+}
+
+.css-gkv3fg, .css-5jbw7z {
+  grid-template-columns: none !important;
+  padding-left:5.5rem;
+  padding-right:5.5rem;
+}
+.css-8bc37f{
+	display:block;
+}
+/* Carousel */
+.css-1gballw {
+  position: relative;
+  width: 100%;
+  overflow: hidden;
+  padding-top: 0;
+  margin-top:-3rem;
+}
+
+.slick-slider {
+  margin-top:0;
+  margin-left: auto;
+  margin-right: -6rem;
+  padding-left: 3.2vw;
+  padding-right: 0;
+}
+.slick-list {
+	margin-top:0;
+}
+.slick-slide {
+  padding-left: 2rem;
+  padding-right: 2rem;
+}
+.slick-dots {
+  bottom: -240px !important;
+  height: 430px !important;
+  width: 90% !important;
+  text-align: left !important;
+  margin-left: 1.6rem !important;
+}
+
+.slick-dots li {
+  margin:0 0 !important;
+}
+.chakra-stack {
+ z-index:1;
+}
+.css-160hj0l {
+  margin-top:60px !important;
+}
+#box>div>div {
+  margin-top:1rem !important;
+}
+#box>div>div>img {
+    object-fit: cover;
+}
+.css-gkv3fg, .css-5jbw7z {
+  padding-left:5.5rem !important;
+  padding-right:5.5rem !important;
+}
+.css-ev36ux {
+  display:none !important;
+}
+.listing-description {
+  margin-bottom:8px;
+}
+.css-gkv3fg, .css-5jbw7z {
+  grid-template-columns: none !important;
+  padding-left:2rem;
+  padding-right:2rem;
+}
+
+@media screen and (min-width: 48em) {
+ .css-gkv3fg {
+   padding-top: 0 !important;
+   padding-bottom: 1rem !important;
+ }
+}
+@media screen and (min-width: 992px) {
+ .property-single-detail-container>div:nth-child(7) {
+  margin-top:0;
+}
+
+#similarProperties {
+  margin-left: -20px;
+  margin-right: -40px;
+  }
+}
+@media screen and (min-width: 1024px) {
+ .property-single-feature-grid {
+ width:700px;
+ }
+ 
+ .slick-dots {
+   bottom: -280px !important;
+   height: 530px !important;
+ }
+}
+@media screen and (min-width: 1200px) {
+ .slick-dots {
+   bottom: -270px !important;
+ }
+ .property-single-feature-grid{
+	  width:800px;
+ }
+}
+@media screen and (min-width: 1300px) {
+ .slick-dots {
+   bottom: -295px !important;
+ }
+  .property-single-feature-grid{
+	  width:900px;
+ }
+}
+@media screen and (min-width: 1400px) {
+ .slick-dots {
+   bottom: -320px !important;
+ }
+}
+@media screen and (min-width: 1440px) {
+ .css-8atqhb {
+    min-height:950px !important;
+    max-height:950px !important;
+  }
+  .property-single-detail-container>div:nth-child(2) {
+    /* top:37rem !important; */
+	top:40rem !important;
+  }
+}
+@media screen and (min-width: 1700px) {
+
+  .css-1gballw {
+    margin-top:0;
+    margin-bottom:0;
+    height:600px !important;
+   }
+   .slick-dots {
+   bottom: -70px !important;
+   height:400px;
+ }
+  #box>div>div>img {
+    width:540px;
+    height:400px;
+    margin-left:0px;
+    margin-right:auto;
+   }
+}
+@media screen and (min-width: 1800px) {
+.slick-dots {
+   bottom: -80px !important;
+ }
+}
+@media screen and (min-width: 1920px) {
+  .css-8atqhb {
+    min-height:1100px !important;
+    max-height:1100px !important;
+  }
+  .property-single-detail-container>div:nth-child(2) {
+    top:39rem !important;
+  }
+  .property-description {
+  	margin-bottom:3rem;
+  }
+  .css-1gballw {
+    height:700px !important;
+  }
+   .slick-dots {
+    bottom: 70px !important;
+    height:500px;
+   }
+   #box>div>div>img {
+    width:100%;
+    height:500px;
+    margin-left:0px;
+    margin-right:auto;
+   }
+}
+@media screen and (min-width: 2600px) {
+.slick-dots {
+    bottom: 50px !important;
+}
+}
+@media screen and (max-width: 1023px) {
+  .property-single-detail-container>div:nth-child(2) {
+    top:20rem !important;
+  }
+  .property-summary-detail-container>div {
+    padding-left:1rem;
+    padding-right:1rem;
+  }
+  .slick-dots {
+    width:90% !important;
+    bottom:-270px !important;
+  }
+}
+@media screen and (max-width: 991px) {
+.property-single-detail-container .chakra-image{
+	min-height: 650px !important;
+    max-height: 650px !important;
+	}
+.property-single-detail-container .listing-description{
+    font-size: 4vw;
+    line-height: 4.5vw;
+}
+  .price-description {
+    font-size: 1.6rem;
+    line-height: 2rem;
+  }
+  .extra-description {
+    font-size: 1.8rem;
+    line-height: 2rem;
+    /* width:60%; */
+  }
+ .slick-slider {
+    margin-top:0;
+	padding-left: 4vw;
+    padding-right: 4vw;
+    margin-right: auto;
+ }
+.slick-slide {
+	padding-left: .6rem;
+    padding-right: .6rem;
+ }
+ .slick-dots {
+    text-align:center !important;
+  }
+  .property-single-detail-container>div:nth-child(2) {
+    width:80%;
+  }
+  .css-gkv3fg, .css-5jbw7z {
+    grid-template-columns: none !important;
+    padding-left:2rem !important;
+    padding-right:2rem !important;
+	}
+  .property-single-detail-container .property-price, 
+  .property-single-detail-container .listing-bedrooms, 
+  .property-single-detail-container .listing-size {
+    text-align: left !important;
+  }
+}
+@media screen and (max-width: 767px) {
+
+  .property-single-detail-container>div:nth-child(2) {
+    top:8rem !important;
+  }
+  .property-single-detail-container .listing-description{
+  	font-size:5.25vw !important;
+  	line-height:5.75vw !important;
+  }
+  .css-1gballw {
+    margin-top:1rem;
+    margin-bottom:0;
+    padding-left:18px;
+    padding-right:18px;
+  }
+ .property-single-detail-container .css-8atqhb {
+    height: 100% !important;
+    /* width:auto !important; */
+    max-width:none !important;
+  }
+  .property-single-detail-container>div:nth-child(2) {
+    top:35rem !important;
+  }
+  .css-1j9zy8k {
+    display:block !important;
+  }
+  .property-summary-detail-container>div {
+    padding-left:0;
+    padding-right:0;
+  }
+  #box>div>div>img {
+    width:100%;
+    height:auto;
+  }
+   .slick-dots {
+    margin-left:0 !important;
+    bottom:-400px !important;
+  } 
+  .property-single-detail-container .property-price, 
+  .property-single-detail-container .listing-bedrooms, 
+  .property-single-detail-container .listing-size {
+    text-align: center !important;
+	width: auto !important;
+  }
+  .property-listing-info{
+	width: 60%;
+    margin: 0 auto;
+    position: relative;
+    height: auto;
+	display: flex;
+    justify-content: space-between;
+  }
+}
+/* was 599px */
+@media screen and (max-width: 767px) {
+  .price-description{
+	 min-height:50px;
+	 margin-bottom: 50px;
+     width:90%;
+	 margin-top: 39rem;
+   }
+  .property-single-detail-container .listing-description{
+  	font-size:6vw !important;
+  	line-height:8vw !important;
+	text-align: center;
+  }
+  .property-single-detail-container .chakra-button {
+    margin-top:40px;
+	}
+  .property-single-detail-container>div:nth-child(2) {
+    top:15rem !important;
+    width:auto;
+  }
+  .property-single-detail-container .css-8atqhb {
+    /* margin-left:-20%; */
+	/* width:auto !important; */
+  }
+  .property-details {
+	font-size: .8rem;
+  }
+  .property-single-detail-container>div:nth-child(7) {
+    width:100%;
+    margin-left:0;
+    padding-left:5.5vw !important;
+    padding-right:5.5vw !important;
+  }
+  .property-single-detail-container>div:nth-child(8), 
+  .extra-description, .price-description, .property-details {
+   margin-left:0;
+    padding-left:5.5vw !important;
+  }
+  .extra-description, .property-details {
+	display: block;
+    width:100%;
+	padding-right: 5.5vw !important;
+  }
+  .css-1gballw {
+    margin-top:-4rem;
+	padding-left:5px;
+    padding-right:5px;
+	height: 650px !important;
+  }
+}
+@media screen and (max-width: 599px) {
+	  .slick-dots {
+    bottom:-360px !important;
+  }
+}
+@media screen and (max-width: 479px) {
+  .property-listing-info {
+	width: 100%;
+  }
+  .slick-dots {
+    bottom:-310px !important;
+  }
+}
+@media screen and (min-width: 1920px) {
+	.bar-under-hero-image.bar-adjustment-for-property-page {
+		top: 1100px;
+	}
+}
+li.property-single-list-item.css-0 {
+    font-family: Gotham, sans-serif;
+    font-size: 12px;
+    font-weight: 800;
+	letter-spacing: 1.5px;
+	text-transform: uppercase;
+}
+span.property-single-feature-list-heading, span.property-single-reference {
+    font-weight: 400;
+    text-transform: uppercase;
+}
+@media screen and (max-width: 614px) {
+	.css-153bemv{
+		gap: 20px !important;
+		grid-template-columns: repeat(1, minmax(0px, 1fr)) !important;
+	}	
+	li.property-single-list-item.css-0 {
+	font-size: 11px;
+	}
+}
